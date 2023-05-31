@@ -1,12 +1,11 @@
 # Pascal Triangle
 
-![Kata Image](images/Team.jpg) <br>
-"[Image Name](https://xxx)" by [Image Author](https://xxx/) is licenced under [License Name](https://xxx)
-_`Replace above picture and references with something more relevant for this kata`_
+![Animated GIF of the Pascal Triangle](images/PascalTriangleAnimated2.gif) <br>
+"[PascalTriangleAnimated2](https://en.wikipedia.org/wiki/Pascal%27s_triangle)" by [Hersfold](https://en.wikipedia.org/wiki/User:Hersfold) in [Public Domain](https://en.wikipedia.org/wiki/Public_domain)
 
 ## Description
 
-_`Add kata description here`_
+The goal of this kata is to generate a string version of Pascal's Triangle up to a given line. It's a nice problem to practice a mix of top-down and bottom-up styles.
 
 ## Getting Started
 
@@ -24,7 +23,7 @@ You can fill it from [here](QuickRetrospective.md)
 
 ### For this Kata
 
-_`Add here any link deemed relevant for this kata`_
+- [Wikipedia page on Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
 
 ### General
 
@@ -37,7 +36,7 @@ _`Add here any link deemed relevant for this kata`_
 
 ### Style & Duration
 
-_`Remove irrelevant formats and adjust duration if needed`_
+Any of the following formats will do:
 
 - 2-hour [Prepared Kata](doc/PreparedKata.md)
 - 2-hour [Randori in Pairs](doc/RandoriInPairs.md)
@@ -46,11 +45,13 @@ _`Remove irrelevant formats and adjust duration if needed`_
 
 ### Topic
 
-_`Indicate main topic of this kata here`_
+Mixing top-down and bottom-up styles. This means starting with top-down, until we discover a brick that would be useful and that we decide to build bottom-up. When the brick is advanced enough, we can plug it back in the main code and do top-down again. We can then alternate a few times between both styles.
 
 ### Focus Points
 
-_`Indicate main focus points covered during this kata`_
+- Early integration of the code
+- Understanding of the difference between top-down and bottom-up
+- Understanding of how to make the best of both styles
 
 ### Source Files
 

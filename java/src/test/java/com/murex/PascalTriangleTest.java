@@ -23,13 +23,25 @@ SOFTWARE.
 package com.murex;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class PascalTriangleTest {
 
+    @Disabled
     @Test
     public void acceptance_test() {
-        // TODO Replace with an acceptance test relevant for this kata
-        assertEquals(42, PascalTriangle.doSomething());
+        int lastLine = '7';
+        String expected = ""
+                + "1\n"
+                + "1 1\n"
+                + "1 2 1\n"
+                + "1 3 3 1\n"
+                + "1 4 6 4 1\n"
+                + "1 5 10 10 5 1\n"
+                + "1 6 15 20 15 6 1\n"
+                + "1 7 21 35 35 21 7 1\n";
+        assertEquals(expected, PascalTriangle.draw(lastLine));
     }
 }

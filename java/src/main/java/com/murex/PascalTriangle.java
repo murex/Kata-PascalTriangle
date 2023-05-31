@@ -24,8 +24,7 @@ package com.murex;
 
 class PascalTriangle {
 
-    // TODO Replace with a method more relevant for the kata
-    static int doSomething() {
-        return 42;
+    static String draw(int lastLine) {
+        return "";
     }
 }
