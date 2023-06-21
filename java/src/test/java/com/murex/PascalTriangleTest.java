@@ -32,7 +32,7 @@ public class PascalTriangleTest {
     @Disabled
     @Test
     public void acceptance_test() {
-        int lastLine = '7';
+        int lastLine = 7;
         String expected = ""
                 + "1\n"
                 + "1 1\n"
