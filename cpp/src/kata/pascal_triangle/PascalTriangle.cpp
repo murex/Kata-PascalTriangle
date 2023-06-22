@@ -27,10 +27,9 @@ namespace murex {
 namespace kata {
 namespace pascal_triangle {
 
-// TODO Replace with a method more relevant for the kata
-int doSomething()
+std::string draw(int lastLine)
 {
-   return 42;
+	return "";
 }
 
 } // namespace pascal_triangle
