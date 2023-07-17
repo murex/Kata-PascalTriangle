@@ -51,7 +51,7 @@
         <dependency>
             <groupId>com.approvaltests</groupId>
             <artifactId>approvaltests</artifactId>
-            <version>18.6.0</version>
+            <version>18.6.1</version>
             <scope>test</scope>
         </dependency>
         -->
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>31.1-jre</version>
+            <version>32.1.1-jre</version>
         </dependency>
         -->
 
@@ -87,7 +87,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
-                <version>3.2.0</version>
+                <version>3.3.1</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -130,12 +130,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.1.2</version>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
-                <version>2.15.0</version>
+                <version>2.16.0</version>
                 <configuration>
                     <generateBackupPoms>false</generateBackupPoms>
                 </configuration>
