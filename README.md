@@ -12,7 +12,6 @@ The goal of this kata is to generate a string version of Pascal's Triangle up to
 - [Java](java/GETTING_STARTED.md)
 - [C++](cpp/GETTING_STARTED.md)
 - [Go](go/GETTING_STARTED.md)
-- [C#](csharp/GETTING_STARTED.md)
 - [Python](python/GETTING_STARTED.md)
 
 ## Session Quick Retrospective
@@ -58,7 +57,6 @@ Mixing top-down and bottom-up styles. This means starting with top-down, until w
 - [Java](java)
 - [C++](cpp)
 - [Go](go)
-- [C#](csharp)
 - [Python](python)
 
 ## License
