@@ -22,6 +22,6 @@ SOFTWARE.
 
 package pascal_triangle
 
-func doSomething() int {
-	return 42
+func draw(line int) string {
+	return ""
 }
