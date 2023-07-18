@@ -20,5 +20,5 @@
 import string
 
 
-def draw(last_line) -> string:
+def draw(last_line: int) -> string:
     return ""
