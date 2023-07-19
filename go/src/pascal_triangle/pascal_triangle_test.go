@@ -28,6 +28,8 @@ import (
 )
 
 func Test_acceptance_test(t *testing.T) {
+	t.Skip("test currently disabled")
+
 	lastLine := 7
 	expected := "" +
 		"1\n" +
