@@ -1,3 +1,12 @@
+[![Gradle](https://github.com/murex/Kata-PascalTriangle/actions/workflows/gradle.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/gradle.yml)
+[![Maven](https://github.com/murex/Kata-PascalTriangle/actions/workflows/maven.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/maven.yml)
+[![CMake](https://github.com/murex/Kata-PascalTriangle/actions/workflows/cmake.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/cmake.yml)
+[![Go](https://github.com/murex/Kata-PascalTriangle/actions/workflows/go.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/go.yml)
+[![Pytest](https://github.com/murex/Kata-PascalTriangle/actions/workflows/pytest.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/pytest.yml)
+[![Npm](https://github.com/murex/Kata-PascalTriangle/actions/workflows/npm.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/npm.yml)
+[![Check Markdown links](https://github.com/murex/Kata-PascalTriangle/actions/workflows/markdown-link-check.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/markdown-link-check.yml)
+[![Add contributors](https://github.com/murex/Kata-PascalTriangle/actions/workflows/contributors.yml/badge.svg)](https://github.com/murex/Kata-PascalTriangle/actions/workflows/contributors.yml)
+
 # Pascal Triangle
 
 ![Animated GIF of the Pascal Triangle](images/PascalTriangleAnimated2.gif) <br>
