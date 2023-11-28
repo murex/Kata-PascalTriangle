@@ -24,14 +24,9 @@ SOFTWARE.
 
 #include <string>
 
-namespace com {
-namespace murex {
-namespace kata {
-namespace pascal_triangle {
+namespace com::murex::kata::pascal_triangle
+{
 
-PASCAL_TRIANGLE_API std::string draw(int lastLine);
+   PASCAL_TRIANGLE_API std::string draw(int lastLine);
 
-} // namespace pascal_triangle
-} // namespace kata
-} // namespace murex
-} // namespace com
+} // namespace com::murex::kata::pascal_triangle

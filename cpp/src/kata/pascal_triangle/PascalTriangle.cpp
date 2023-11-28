@@ -22,17 +22,12 @@ SOFTWARE.
 
 #include <kata/pascal_triangle/PascalTriangle.hpp>
 
-namespace com {
-namespace murex {
-namespace kata {
-namespace pascal_triangle {
-
-std::string draw(int lastLine)
+namespace com::murex::kata::pascal_triangle
 {
-	return "";
-}
 
-} // namespace pascal_triangle
-} // namespace kata
-} // namespace murex
-} // namespace com
+   std::string draw(int lastLine)
+   {
+	   return "";
+   }
+
+} // namespace com::murex::kata::pascal_triangle
