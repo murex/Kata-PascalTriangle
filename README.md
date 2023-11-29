@@ -10,16 +10,45 @@
 # Pascal Triangle
 
 ![Animated GIF of the Pascal Triangle](images/PascalTriangleAnimated2.gif) <br>
-"[PascalTriangleAnimated2](https://en.wikipedia.org/wiki/Pascal%27s_triangle)" by [Hersfold](https://en.wikipedia.org/wiki/User:Hersfold) in [Public Domain](https://en.wikipedia.org/wiki/Public_domain)
+"[PascalTriangleAnimated2](https://en.wikipedia.org/wiki/Pascal%27s_triangle)"
+by [Hersfold](https://en.wikipedia.org/wiki/User:Hersfold)
+in [Public Domain](https://en.wikipedia.org/wiki/Public_domain)
 
 ## Description
 
-The goal of this kata is to generate a string version of Pascal's Triangle up to a given line. It's a nice problem to practice a mix of top-down and bottom-up styles.
+The goal of this kata is to generate a string version of Pascal's Triangle up to a given line. It's a nice problem to
+practice a mix of top-down and bottom-up styles.
+
+### What are Bottom-up and Top-down TDD?
+
+Bottom-up style is when you build a brick outside your main acceptance test flow and only later integrate it
+with the rest of the program. On the contrary, Top-down style is when you only work on the code that is covered
+by the acceptance or high level tests.
+
+In order to experiment full bottom-up style start the kata with 10 minutes of up-front design and come up with the
+different 'bricks' you will need to solve the problem. Then use the bottom-up way to solve the kata:
+
+1. Write an acceptance test, and comment it
+2. Test drive the implementation of each brick
+3. Using all the bricks, test drive the implementation of the main function
+4. Uncomment and pass your acceptance test
+
+_Note: Bottom-up / Top-down are also known as Inside-out / Outside-in_
+
+### The pros of Bottom-up TDD?
+
+* It lets you work in small steps
+* It tends to result in more reusable and robust bricks
+
+### The cons of Bottom-up TDD?
+
+* There is a risk that the brick does not integrate well with the main code, leading to a lot of rework. Then a good recommendation is to integrate the brick as soon as possible in the main code.
+* Creating a robust brick is often more work than necessary for the current acceptance test
 
 ## Getting Started
 
-- [Java](java/GETTING_STARTED.md)
 - [C++](cpp/GETTING_STARTED.md)
+- [Java](java/GETTING_STARTED.md)
 - [Go](go/GETTING_STARTED.md)
 - [Python](python/GETTING_STARTED.md)
 - [Typescript](typescript/GETTING_STARTED.md)
@@ -33,6 +62,7 @@ You can fill it from [here](QuickRetrospective.md)
 ### For this Kata
 
 - [Wikipedia page on Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
+- [TDD - From the Inside Out or the Outside In?](https://8thlight.com/blog/georgina-mcfadyen/2016/06/27/inside-out-tdd-vs-outside-in.html) by Georgina McFadyen
 
 ### General
 
@@ -54,7 +84,9 @@ Any of the following formats will do:
 
 ### Topic
 
-Mixing top-down and bottom-up styles. This means starting with top-down, until we discover a brick that would be useful and that we decide to build bottom-up. When the brick is advanced enough, we can plug it back in the main code and do top-down again. We can then alternate a few times between both styles.
+Mixing top-down and bottom-up styles. This means starting with top-down, until we discover a brick that would be useful
+and that we decide to build bottom-up. When the brick is advanced enough, we can plug it back in the main code and do
+top-down again. We can then alternate a few times between both styles.
 
 ### Focus Points
 
@@ -64,8 +96,8 @@ Mixing top-down and bottom-up styles. This means starting with top-down, until w
 
 ### Source Files
 
-- [Java](java)
 - [C++](cpp)
+- [Java](java)
 - [Go](go)
 - [Python](python)
 - [Typescript](typescript)
