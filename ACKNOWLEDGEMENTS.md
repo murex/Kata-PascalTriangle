@@ -44,4 +44,5 @@ This kata uses material from the following third-parties.
 
 ## Other third-parties
 
-* N/A
+* [codingdojo.org katas](https://codingdojo.org/)
+* [kata-log.rocks katas](https://kata-log.rocks/)
