@@ -23,6 +23,6 @@
 CPMFindPackage(
   NAME ApprovalTests
   GITHUB_REPOSITORY approvals/ApprovalTests.cpp
-  GIT_TAG v.10.12.2
-  VERSION 10.12.2
+  GIT_TAG v.10.13.0
+  VERSION 10.13.0
 )
