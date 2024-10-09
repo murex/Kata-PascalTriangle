@@ -77,7 +77,6 @@ You can fill it from [here](QuickRetrospective.md)
 
 Any of the following formats will do:
 
-- 2-hour [Prepared Kata](doc/PreparedKata.md)
 - 2-hour [Randori in Pairs](doc/RandoriInPairs.md)
 - 2-hour [Randori Kata](doc/RandoriKata.md)
 - 2-hour [Mob Kata](doc/MobProgramming.md)
@@ -91,8 +90,8 @@ top-down again. We can then alternate a few times between both styles.
 ### Focus Points
 
 - Early integration of the code
-- Understanding of the difference between top-down and bottom-up
-- Understanding of how to make the best of both styles
+- Understanding the difference between top-down and bottom-up
+- Understanding how to make the best of both styles
 
 ### Source Files
 

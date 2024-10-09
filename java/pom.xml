@@ -36,45 +36,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Mockito Core -->
-        <!-- Uncomment if the kata is using it. Remove otherwise
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>4.3.1</version>
-            <scope>test</scope>
-        </dependency>
-        -->
-
-        <!-- ApprovalTests (for Golden Master tests) -->
-        <!-- Uncomment if the kata is using it. Remove otherwise
-        <dependency>
-            <groupId>com.approvaltests</groupId>
-            <artifactId>approvaltests</artifactId>
-            <version>24.6.0</version>
-            <scope>test</scope>
-        </dependency>
-        -->
-
-        <!-- Gson parser -->
-        <!-- Uncomment if the kata is using it. Remove otherwise
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.11.0</version>
-            <scope>compile</scope>
-        </dependency>
-        -->
-
-        <!-- Guava utilities -->
-        <!-- Uncomment if the kata is using it. Remove otherwise
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>33.3.0-jre</version>
-        </dependency>
-        -->
-
     </dependencies>
 
     <build>
