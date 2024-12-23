@@ -75,11 +75,7 @@ You can fill it from [here](QuickRetrospective.md)
 
 ### Style & Duration
 
-Any of the following formats will do:
-
-- 2-hour [Randori in Pairs](doc/RandoriInPairs.md)
 - 2-hour [Randori Kata](doc/RandoriKata.md)
-- 2-hour [Mob Kata](doc/MobProgramming.md)
 
 ### Topic
 
